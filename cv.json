@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Ethan Smith",
-    "label": "Software Engineer",
+    "label": "Software Engineer \\& Technical Coach",
     "picture": "",
-    "email": "ethan.smith@fmr.com",
+    "email": "contact@ethansmith.io",
     "website": "ethansmith.io",
-    "summary": "I have included my passions for education and the free-sharing of knowledge proudly in my 3+ years of working as a software engineer in a highly regulated industry. Although I am confident in my skillset, I believe there is always room for self-improvement and look forward to learning and growing from new experiences.",
+    "summary": "I include my passions for education and the free-sharing of knowledge proudly as a software engineer and technical coach in a highly regulated industry. I focus on improving my team's knowledge sharing, automation, and reliability through collaborative work and documentation.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Barre",
+      "city": "",
       "countryCode": "US",
       "region": "Vermont"
     },
@@ -29,23 +29,57 @@
   "work": [
     {
       "company": "Fidelity Investments",
+      "position": "Sr. Manager, LEAP Technical Coach",
+      "website": "https://fidelity.com",
+      "location": "Merrimack, NH \\& Remote",
+      "startDate": "2021-10-01",
+      "endDate": "Present",
+      "summary": "Coach recent college graduates to technical proficiency in full stack development",
+      "highlights": [
+        "Meet 1 on 1 with associates on a bi-weekly basis",
+        "Facilitate and evaluate associates' technical understanding by supervising assessments, performing code reviews, and reviewing completed work",
+        "Provide mentorship and technical oversight to associates working on development projects",
+        "Curated technical learning content for full stack engineers",
+        "Created interactive curriculum for differentiated JavaScript training",
+        "Reduced errors and minimized setup time for each learning cohort by automating repetitive business processes with PowerShell"
+      ]
+    },
+    {
+      "company": "",
       "position": "Software Engineer",
       "website": "https://fidelity.com",
-      "location": "Merrimack, NH - Remote",
-      "startDate": "2017-09-11",
-      "endDate": "Present",
-      "summary": "Act as development lead for the enterprise Power Platform SaaS offering",
+      "location": "",
+      "startDate": "2018-02-05",
+      "endDate": "2021-09-30",
+      "summary": "Software engineer and platform admin supporting the enterprise Power Platform and SharePoint SaaS offerings",
       "highlights": [
-        "Aid in the technical interviews of potential team members",
-        "Facilitate monthly KT forums for off-shore and on-shore teams to connect on vital cross-team initiatives",
-        "Mentor and provide technical guidance for summer interns across various tech stacks",
-        "Host tri-weekly office hours to troubleshoot users' issues and advise on best practices for SharePoint and Power Platform adoption",
-        "Automate critical processes to ensure SEC Rule 17a-4(f) and audit compliance",
-        "Participate in quarterly planning sessions to identify and refine the team's product backlog",
-        "Served as my team's interim scrum master on multiple occassions in addition to performing daily development tasks",
-        "Created self service solutions with React and Microsoft's SPFx framework",
-        "Refined my skills in Angular, Agile, Transact SQL, and Java Spring as a LEAP associate",
-        "Implemented a more secure credential protocol for automated PowerShell scripts"
+        "Developed and maintained PowerShell modules to automate M365 administration",
+        "Aided in the technical interviews of potential team members",
+        "Facilitated monthly KT forums for off-shore and on-shore teams to connect on vital cross-team initiatives",
+        "Mentored and provided technical guidance for summer interns across various tech stacks",
+        "Acted as development lead for the enterprise Power Platform SaaS offering",
+        "Hosted thrice-weekly office hours to troubleshoot end users' issues and advise on best practices for SharePoint and Power Platform adoption",
+        "Automated critical processes to ensure SEC Rule 17a-4(f) and audit compliance",
+        "Participated in quarterly planning sessions to identify and refine the development team's product backlog",
+        "Served as the team's interim scrum master on multiple occasions in addition to performing daily development tasks",
+        "Reduced application support time by creating self service solutions with SharePoint, React, and Microsoft's SPFx framework",
+        "Implemented and drove adoption of a more secure credential protocol for automated PowerShell scripts",
+        "Performed migrations of SharePoint sites from on-prem to cloud"
+      ]
+    },
+    {
+      "company": "",
+      "position": "Associate Software Engineer",
+      "website": "https://fidelity.com",
+      "location": "",
+      "startDate": "2017-09-11",
+      "endDate": "2018-02-05",
+      "summary": "Software engineer for the enterprise Power Platform SaaS offering",
+      "highlights": [
+        "Participated in 'LEAP' technical training to refined my skills in Angular, Java, Spring, and PL/SQL as a LEAP associate",
+        "Performed migrations of SharePoint sites from on-prem to cloud",
+        "Developed and maintained PowerShell scripts to automate SharePoint administration and executive workflows",
+        "Participated in quarterly planning sessions to identify and refine the development team's product backlog"
       ]
     },
     {
@@ -55,10 +89,10 @@
       "location": "Burlington, MA",
       "startDate": "2016-05-01",
       "endDate": "2016-08-31",
-      "summary": "Worked in an Agile scrum team to perform daily development tasks",
+      "summary": "Performed development tasks in an Agile scrum team on the Forex squad",
       "highlights":[
         "Utilized TDD to identify bugs and refactor Forex order processing code, increasing efficiency by 300%",
-        "Updated the Forex order form and order processing capabilities according to user feedback"
+        "Revised the Forex order form and order processing capabilities according to user feedback"
       ]
     },
     {
@@ -73,7 +107,9 @@
         "Organized camp wide recreation",
         "Recognized as one of the top 5% performing counselors nationwide"
       ]
-    },
+    }
+  ],
+  "extraWork": [
     {
       "company": "U.S. Soccer Federation",
       "position": "Referee",
@@ -139,37 +175,24 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Interpersonal",
       "level": "Proficient",
       "keywords": [
-        "React",
-        "Angular",
-        "NodeJS",
-        "gulp",
-        "HTML",
-        "CSS/Sass"
+        "Relationship management",
+        "Professional coaching"
       ]
     },
     {
-      "name": "Programming Languages",
+      "name": "Technical",
       "level": "Proficient",
       "keywords": [
         "PowerShell",
         "TypeScript",
         "Javascript",
-        "C#",
         "Java",
         "PL/SQL",
-        "MSSQL"
-      ]
-    },
-    {
-      "name":"Technical Skills",
-      "level":"Proficient",
-      "keywords": [
         "git",
-        "perforce",
-        "Test driven development",
+        "Test driven development", 
         "Process automation"
       ]
     }

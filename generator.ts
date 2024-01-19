@@ -45,11 +45,20 @@ const cvSkills = (skills: cvSkill[]) =>
         ${skills.map(skill => cvSkill(skill.category, skill.skills)).join('\n')}
     \\end{cvskills}`
 const cvEntry = (firstRow: string, secondRow: string, thirdRow: string, startDate: string, endDate: string, list: cvItem[]) =>
-    `\\cventry
+    `\\cventrycolor
         {${firstRow}}
         {${secondRow}}
         {${thirdRow}}
-        {${moment(startDate).format('YYYY.M.D')} - ${endDate !== "Present" ? moment(endDate).format('YYYY.M.D') : "Present"}}
+        {${moment(startDate).format('YYYY.M.D')} $\\minus$ ${endDate !== "Present" ? moment(endDate).format('YYYY.M.D') : "Present"}}
+        {
+            ${cvItems(list)}
+        }`;
+const cvEntryColor = (firstRow: string, secondRow: string, thirdRow: string, startDate: string, endDate: string, list: cvItem[]) =>
+    `\\cventrycolor
+        {${firstRow}}
+        {${secondRow}}
+        {${thirdRow}}
+        {${moment(startDate).format('YYYY.M.D')} $\\minus$ ${endDate !== "Present" ? moment(endDate).format('YYYY.M.D') : "Present"}}
         {
             ${cvItems(list)}
         }`;
@@ -57,7 +66,6 @@ const cvEntry = (firstRow: string, secondRow: string, thirdRow: string, startDat
 const cvPersonal = (person: basics) => `
     \\name{${person.name.split(' ')[0]}}{${person.name.split(' ')[1]}}
     \\position{${person.label}}
-    \\address{${person.location.address} ${person.location.city}, ${person.location.region} ${person.location.postalCode}}
     \\email{${person.email}}
     \\homepage{${person.website}}
     ${person.profiles.filter(profile => profile.network === 'Github').length === 1 ? "\\github{" + person.profiles.filter(profile => profile.network === 'Github')[0].username + "}" : null}
@@ -71,7 +79,7 @@ export const skill = (Category: string, Skills: string[]) =>
     cvSkill(Category, Skills);
 
 export const education = (Degree: string, University: string, Location: string, StartDate: string, EndDate: string, Classes: string[]) =>
-    cvEntry(Degree, University, Location, StartDate, EndDate, [{ text: Classes.join(', ') }]);
+    cvEntryColor(Degree, University, Location, StartDate, EndDate, [{ text: Classes.join(', ') }]);
 
 export const personal = (person: basics) =>
     cvPersonal(person);
