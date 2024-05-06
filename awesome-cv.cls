@@ -128,7 +128,7 @@
 % Basic colors
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
-\definecolor{purple}{HTML}{cc0099}
+\definecolor{purple}{HTML}{36013F}
 \definecolor{red}{HTML}{881c1c}
 \definecolor{blue}{HTML}{3a8def}
 
@@ -147,7 +147,7 @@
 \definecolor{awesome-concrete}{HTML}{95A5A6}
 \definecolor{awesome-darknight}{HTML}{212721}
 \colorlet{awesome}{awesome-emerald}
-\colorlet{titlehighlight}{red}
+\colorlet{titlehighlight}{purple}
 
 % Boolean value to switch section color highlighting
 \newbool{acvSectionColorHighlight}
@@ -190,10 +190,10 @@
 %-------------------------------------------------------------------------------
 % Configure styles for each CV elements
 % For fundamental structures
-\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{32pt}{1em}\headerfontlight\color{graytext} #1}}
-\newcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}{1em}\headerfont\bfseries\color{text} #1}}
+\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{32pt}{1em}\headerfontlight\color{text} #1}}
+\newcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}{1em}\headerfontlight\color{text} #1}}
 \newcommand*{\headerpositionstyle}[1]{{\fontsize{7.6pt}{1em}\bodyfont\scshape\color{awesome} #1}}
-\newcommand*{\headeraddressstyle}[1]{{\fontsize{8pt}{1em}\headerfont\itshape\color{lighttext} #1}}
+\newcommand*{\headeraddressstyle}[1]{{\fontsize{8pt}{1em}\headerfont\itshape\color{gray} #1}}
 \newcommand*{\headersocialstyle}[1]{{\fontsize{6.8pt}{1em}\headerfont\color{text} #1}}
 \newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
@@ -203,7 +203,7 @@
 
 % For elements of entry
 \newcommand*{\entrytitlestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\entrytitlestylecolor}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{titlehighlight} #1}}
+\newcommand*{\entrytitlestylecolor}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{8pt}{0.5em}\bodyfont\scshape\color{darktext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{8pt}{1em}\bodyfontlight\slshape\color{graytext} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfontlight\slshape\color{awesome} #1}}
@@ -270,7 +270,7 @@
 
 % Define writer's address
 % Usage: \address{<address>}
-% \newcommand*{\address}[1]{\def\@address{#1}}
+\newcommand*{\address}[1]{\def\@address{#1}}
 
 % Define writer's position
 % Usage: \position{<position>}
@@ -398,8 +398,8 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
 
 % Others
-\newcommand{\acvSectionTopSkip}{3mm}
-\newcommand{\acvSectionContentTopSkip}{2.5mm}
+\newcommand{\acvSectionTopSkip}{1mm}
+\newcommand{\acvSectionContentTopSkip}{1.5mm}
 
 
 %-------------------------------------------------------------------------------
@@ -593,7 +593,7 @@
 \newenvironment{cventries}{%
   \vspace{\acvSectionContentTopSkip}
   \begin{center}
-}{%
+}{
   \end{center}
 }
 % Define an entry of cv information

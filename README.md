@@ -2,7 +2,7 @@
 
 ## Quick Start
 This repository is to automatically convert a json resume to LaTex PDF and save the result in my personal website project
-This is forked from Awesome-CV
+This is forked from Awesome-CV :: https://github.com/posquit0/Awesome-CV
 
 ```bash
 yarn

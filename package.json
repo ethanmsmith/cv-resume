@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "compile": "tsc -p .; gulp"
+    "start":"npm run compile",
+    "compile": "tsc -p .; gulp watch"
   },
   "dependencies": {
     "fontawesome": "^5.6.3",

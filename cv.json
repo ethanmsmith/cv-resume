@@ -1,15 +1,15 @@
 {
   "basics": {
     "name": "Ethan Smith",
-    "label": "Software Engineer \\& Technical Coach",
+    "label": "Software Engineer • Technical Coach",
     "picture": "",
     "email": "contact@ethansmith.io",
     "website": "ethansmith.io",
-    "summary": "I include my passions for education and the free-sharing of knowledge proudly as a software engineer and technical coach in a highly regulated industry. I focus on improving my team's knowledge sharing, automation, and reliability through collaborative work and documentation.",
+    "summary": "I am a software engineer, mentor, and coach with over 5 years experience in software development, application support, and team leadership. I pursue my passions for technology and education through continuous learning and sharing knowledge so I may encourage others to grow as well. My professional interests include GraphQL, containerization, and automation.",
     "location": {
       "address": "",
-      "postalCode": "",
-      "city": "",
+      "postalCode": "05641",
+      "city": "Barre",
       "countryCode": "US",
       "region": "Vermont"
     },
@@ -26,73 +26,98 @@
       }
     ]
   },
+  "skills": [
+    {
+      "name": "Interpersonal",
+      "level": "Proficient",
+      "keywords": [
+        "Professional coaching",
+        "scrum",
+        "project management",
+        "tutoring"
+      ]
+    },
+    {
+      "name": "Technical",
+      "level": "Proficient",
+      "keywords": [
+        "API development",
+        "test-driven development", 
+        "process automation",
+        "VCS"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level":"Proficient",
+      "keywords":[
+        "PowerShell",
+        "TypeScript",
+        "Javascript",
+        "Java",
+        "PL/SQL"
+      ]
+    }
+  ],
   "work": [
     {
       "company": "Fidelity Investments",
       "position": "Sr. Manager, LEAP Technical Coach",
       "website": "https://fidelity.com",
-      "location": "Merrimack, NH \\& Remote",
+      "location": "Merrimack, NH - Remote",
       "startDate": "2021-10-01",
       "endDate": "Present",
-      "summary": "Coach recent college graduates to technical proficiency in full stack development",
+      "summary": "Lead associates to technical proficiency through code reviews, coaching sessions, mentorship, and regular one-on-one conversations",
       "highlights": [
-        "Meet 1 on 1 with associates on a bi-weekly basis",
-        "Facilitate and evaluate associates' technical understanding by supervising assessments, performing code reviews, and reviewing completed work",
-        "Provide mentorship and technical oversight to associates working on development projects",
-        "Curated technical learning content for full stack engineers",
-        "Created interactive curriculum for differentiated JavaScript training",
-        "Reduced errors and minimized setup time for each learning cohort by automating repetitive business processes with PowerShell"
+        "Increase learner comprehension by curating individualized and accelerated learning paths in TypeScript, Java, and SQL",
+        "Create and deliver interactive training sessions on UML and SQL for audiences exceeding 100 learners",
+        "Automate repetitive business processes with PowerShell modules",
+        "Interview candidates and make hiring decisions"
       ]
     },
     {
       "company": "",
-      "position": "Software Engineer",
-      "website": "https://fidelity.com",
+      "position": "Software Engineer, SharePoint and PowerPlatform Admin",
+      "website": "",
       "location": "",
       "startDate": "2018-02-05",
       "endDate": "2021-09-30",
-      "summary": "Software engineer and platform admin supporting the enterprise Power Platform and SharePoint SaaS offerings",
+      "summary": "Designed and developed data integration applications in PowerShell and Java to support records management and compliance",
       "highlights": [
-        "Developed and maintained PowerShell modules to automate M365 administration",
+        "Facilitated scrum events as scrum master along with performing daily admin and developer tasks",
+        "Standardized credential management practices for PowerShell development",
+        "Reduced ticket count and decreased application support time by creating self service solutions with React and Microsoft SPFx framework",
+        "Mentored and provided technical leadership for interns in full stack development",
+        "Hosted learning discussion forum to share techniques and best practices between off-shore and on-shore development teams",
         "Aided in the technical interviews of potential team members",
-        "Facilitated monthly KT forums for off-shore and on-shore teams to connect on vital cross-team initiatives",
-        "Mentored and provided technical guidance for summer interns across various tech stacks",
-        "Acted as development lead for the enterprise Power Platform SaaS offering",
-        "Hosted thrice-weekly office hours to troubleshoot end users' issues and advise on best practices for SharePoint and Power Platform adoption",
-        "Automated critical processes to ensure SEC Rule 17a-4(f) and audit compliance",
-        "Participated in quarterly planning sessions to identify and refine the development team's product backlog",
-        "Served as the team's interim scrum master on multiple occasions in addition to performing daily development tasks",
-        "Reduced application support time by creating self service solutions with SharePoint, React, and Microsoft's SPFx framework",
-        "Implemented and drove adoption of a more secure credential protocol for automated PowerShell scripts",
-        "Performed migrations of SharePoint sites from on-prem to cloud"
+        "Hosted office hours for SharePoint and Power Platform issues and best practices",
+        "Adapted to priority changes by completing developer stories for applications written in Go and JavaScript",
+        "Attended regular MSFT hosted training sessions on developer and administrator patterns and practices"
       ]
     },
     {
       "company": "",
       "position": "Associate Software Engineer",
-      "website": "https://fidelity.com",
+      "website": "",
       "location": "",
       "startDate": "2017-09-11",
       "endDate": "2018-02-05",
-      "summary": "Software engineer for the enterprise Power Platform SaaS offering",
+      "summary": "Developed PowerShell scripts to automate SharePoint administration and email campaigns",
       "highlights": [
-        "Participated in 'LEAP' technical training to refined my skills in Angular, Java, Spring, and PL/SQL as a LEAP associate",
-        "Performed migrations of SharePoint sites from on-prem to cloud",
-        "Developed and maintained PowerShell scripts to automate SharePoint administration and executive workflows",
-        "Participated in quarterly planning sessions to identify and refine the development team's product backlog"
+        "Architected and developed a full stack Q\\&A forum with Angular, SpringBoot, Express, and MongoDB",
+        "Participated in LEAP software engineer technical training for Angular, Spring, MyBatis, PL/SQL, and RESTful architecture"
       ]
     },
     {
       "company": "Charles River Investments",
-      "position": "Softare Engineer, Intern",
+      "position": "Intern Software Engineer",
       "website": "https://crd.com",
       "location": "Burlington, MA",
       "startDate": "2016-05-01",
       "endDate": "2016-08-31",
-      "summary": "Performed development tasks in an Agile scrum team on the Forex squad",
+      "summary": "Followed scrum to implement bugfixes and customer requests within the Foreign Exchanges capability of the CRD desktop application",
       "highlights":[
-        "Utilized TDD to identify bugs and refactor Forex order processing code, increasing efficiency by 300%",
-        "Revised the Forex order form and order processing capabilities according to user feedback"
+        "Increased forex order processing speed 300% by identifying and resolving bugs in a C# codebase"
       ]
     },
     {
@@ -102,10 +127,9 @@
       "location": "Lowell, MA",
       "startDate": "2015-06-01",
       "endDate": "2015-08-31",
-      "summary": "Instructed upcoming and current high school students in core computer science concepts",
+      "summary": "Recognized as a top performing instructor nation wide by CEO",
       "highlights": [
-        "Organized camp wide recreation",
-        "Recognized as one of the top 5% performing counselors nationwide"
+        "Taught technical curriculum to students in datastructures, object-oriented principles, and Java"
       ]
     }
   ],
@@ -137,7 +161,7 @@
       "location": "Danvers, MA",
       "startDate": "2013-04-01",
       "endDate": "2013-06-01",
-      "summary": "Assistant soccer coach for girls U14 soccer team. I ran drills during practice and managed the team during games."
+      "summary": "Assistant soccer coach for girls U14 soccer team. Responsible for drills during practice and game plan during games."
     }
   ],
   "education": [
@@ -171,30 +195,6 @@
       "releaseDate": "",
       "website": "",
       "summary": ""
-    }
-  ],
-  "skills": [
-    {
-      "name": "Interpersonal",
-      "level": "Proficient",
-      "keywords": [
-        "Relationship management",
-        "Professional coaching"
-      ]
-    },
-    {
-      "name": "Technical",
-      "level": "Proficient",
-      "keywords": [
-        "PowerShell",
-        "TypeScript",
-        "Javascript",
-        "Java",
-        "PL/SQL",
-        "git",
-        "Test driven development", 
-        "Process automation"
-      ]
     }
   ],
   "languages": [
